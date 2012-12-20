@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <!-- Slide meta data, remove/edit as you see fit -->
+        <title>Idris</title>
+        <meta name="generator" content="Organic" />
+        <meta name="author" content="Leif Warner" />
+        <meta name="company" content="Janrain" />
+        <meta name="date" content="12-10-2012" />
+        <meta name="venue" content="Janrain" />
+        <!-- Slippy core file and dependencies -->
+        <script type="text/javascript" src="slippy/jquery.min.js"></script>
+        <script type="text/javascript" src="slippy/jquery.history.js"></script>
+        <script type="text/javascript" src="slippy/slippy.js"></script>
+        <!-- Slippy structural styles -->
+        <link type="text/css" rel="stylesheet" href="slippy/slippy.css"/>
+        <!-- Slippy theme -->
+        <link type="text/css" rel="stylesheet" href="slippy/slippy-pure.css"/>
+        <!-- Slippy init code -->
+        <script type="text/javascript">
+            $(function() {
+                $(".slide").slippy({
+                    // settings go here
+                    // possible values are:
+                    //  - animLen, duration for default animations (0 = disabled)
+                    //  - animInForward, receives a slide and animates it
+                    //  - animInRewind, receives a slide and animates it
+                    //  - animOutForward, receives a slide and animates it
+                    //  - animOutRewind, receives a slide and animates it
+                    //  - baseWidth, defines the base for img resizing, if you don't want only
+                    //    full-width images, specify this as the pixel width of a slide so that
+                    //    images are scaled properly (default is 620px wide)
+                    //  - ratio, defines the width/height ratio of the slides, defaults to 1.3 (620x476)
+                    //  - margin, the fraction of screen to use as slide margin, defaults to 0.15
+                });
+            });
+        </script>
+        <!-- Custom style for this deck -->
+        <style type="text/css">
+            .slide.nofooter {
+                border: 0;
+                background: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="slide">
+            <h1>Idris</h1>
+            <h2>Haskell Extended</h2>
+            <ul>
+                <li>Eager (w/ annotation for by-name params)</li>
+                <li>Idiom Brackets</li>
+                <li>Generalised algebraic datatypes</li>
+                <li>Convenient C FFI (other backends in the works)</li>
+                <li>Named typeclasses</li>
+            </ul>
+        </div>
+
+        <div class="slide">
+            <div class="vcenter">
+                <h1>Dependent types</h1>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="vcenter">
+              <h1>Further Reading</h1>
+              <p><a href="http://www.cs.st-andrews.ac.uk/~eb/writings/idris-tutorial.pdf">Tutorial</a></p>
+              <p><a href="http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/">Type Theory and Functional Programming (1991)</a></p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="vcenter">
+              <h1>Further Reading</h1>
+              <p><a href="http://idris-lang.org/">http://idris-lang.org/</a></p>
+              <p><a href="http://groups.google.com/group/idris-lang">Mailing list (google groups)</a></p>
+              <p>#idris on freenode</p>
+            </div>
+        </div>
+
+    </body>
+</html>
